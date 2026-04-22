@@ -36,3 +36,47 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 });
+/* CTA Buttons Container */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Discord Button */
+.cta-button.discord {
+    background: linear-gradient(135deg, #7289DA 0%, #5a75c2 100%);
+    color: #ffffff;
+    border: 2px solid #7289DA;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 20px rgba(114, 137, 218, 0.4);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-button.discord:hover {
+    background: linear-gradient(135deg, #5a75c2 0%, #4a65b2 100%);
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(114, 137, 218, 0.6);
+}
+
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta-button,
+    .cta-button.discord {
+        width: 100%;
+    }
+}
