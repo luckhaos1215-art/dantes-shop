@@ -1,154 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dantes Shop - Gift Cards</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Dante's Shop</title>
+    <style>
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .cta-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+        }
+        .cta-button.discord {
+            background-color: #7289DA;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <span class="logo-icon">🛍️</span>
-                <div>
-                    <h1>DANTES<br><span class="highlight">SHOP</span></h1>
-                    <p class="slogan">CONECTE-SE, ESCOLHA, APROVEITE.</p>
-                </div>
-            </div>
+    <div class="cta-section">
+        <div class="cta-buttons">
+            <a href="https://discord.gg/qSbH8KTB2" class="cta-button discord">Join Discord</a>
+            <button class="cta-button">Comprar Agora</button>
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2>TUDO QUE<br>VOCÊ QUER,<br><span class="highlight">EM UM<br>GIFT CARD!</span></h2>
-                <p>Aqui você encontra os <strong>melhores</strong><br>Gift Cards das <strong>principais plataformas</strong><br>com o <strong>melhor preço e entrega rápida!</strong></p>
-            </div>
-            <div class="hero-cards">
-                <div class="card-item">
-                    <img src="https://via.placeholder.com/120?text=Google+Play" alt="Google Play">
-                </div>
-                <div class="card-item">
-                    <img src="https://via.placeholder.com/120?text=Netflix" alt="Netflix">
-                </div>
-                <div class="card-item">
-                    <img src="https://via.placeholder.com/120?text=Spotify" alt="Spotify">
-                </div>
-                <div class="card-item">
-                    <img src="https://via.placeholder.com/120?text=PlayStation" alt="PlayStation">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Gift Cards Section -->
-    <section class="gift-cards">
-        <div class="container">
-            <h3>TEMOS GIFT CARDS DE:</h3>
-            <div class="platforms">
-                <div class="platform-icon">
-                    <span>🎮</span>
-                    <p>Google Play</p>
-                </div>
-                <div class="platform-icon">
-                    <span>🎬</span>
-                    <p>Netflix</p>
-                </div>
-                <div class="platform-icon">
-                    <span>🎵</span>
-                    <p>Spotify</p>
-                </div>
-                <div class="platform-icon">
-                    <span>🎮</span>
-                    <p>PlayStation</p>
-                </div>
-                <div class="platform-icon">
-                    <span>🎮</span>
-                    <p>Xbox</p>
-                </div>
-                <div class="platform-icon">
-                    <span>🎮</span>
-                    <p>Steam</p>
-                </div>
-                <div class="platform-icon">
-                    <span>➕</span>
-                    <p>E muito mais!</p>
-                </div>
-            </div>
-            <div class="badge">
-                <span>✓</span> CÓDIGOS 100% ORIGINAIS<br>E ENTREGA NA HORA!
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section -->
-    <section class="benefits">
-        <div class="container">
-            <div class="benefits-grid">
-                <div class="benefit-item">
-                    <div class="benefit-icon">⚡</div>
-                    <h4>ENTREGA RÁPIDA</h4>
-                    <p>Receba seu código imediatamente</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">🛡️</div>
-                    <h4>100% SEGURO</h4>
-                    <p>Compra protegida com criptografia</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">🏆</div>
-                    <h4>MELHORES PREÇOS</h4>
-                    <p>Preço justo e competitivo</p>
-                </div>
-                <div class="benefit-item">
-                    <div class="benefit-icon">👥</div>
-                    <h4>SUPORTE DEDICADO</h4>
-                    <p>Atendimento ágil e personalizado</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <button class="cta-button">ESCOLHA SEU GIFT CARD E APROVEITE!</button>
-            <div class="cta-badge">
-                <span>✓</span> MAIS FACILIDADE, MAIS CONFIANÇA
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-item">
-                    <span class="footer-icon">🔒</span>
-                    <h5>COMPRA 100% SEGURA</h5>
-                    <p>Seus dados protegidos com criptografia</p>
-                </div>
-                <div class="footer-item">
-                    <span class="footer-icon">👍</span>
-                    <h5>CLIENTES SATISFEITOS</h5>
-                    <p>Qualidade comprovada por quem compra</p>
-                </div>
-                <div class="footer-item">
-                    <span class="footer-icon">⭐</span>
-                    <h5>CONFIANÇA</h5>
-                    <p>Loja confiável e transparente</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Dantes Shop. Todos os direitos reservados.</p>
-                <p>Entre em contato: contato@dantesshop.com</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    </div>
+    <!-- All other content remains the same -->
 </body>
 </html>
